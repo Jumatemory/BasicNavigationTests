@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RadioButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Delayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,20 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583980690097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WaitGeneratorMethod||RadioButtons">
+      <created>1583987223585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583987223585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BrowserFactory||getDriver Method|| getTypeOperatingSystem Method." />
     <MESSAGE value="StringUtilityClass|| verifyEquals Method || pass or fail:" />
     <MESSAGE value="BasicNavigationTests||Basic Navigation Homework 2-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="BasicNavigationTests||Basic Navigation Homework 2-1" />
+    <MESSAGE value="WaitGeneratorMethod||RadioButtons" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaitGeneratorMethod||RadioButtons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1583980689251">
+    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1583987222880">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583980689251" />
+    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583987222880" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1583978900198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -163,10 +170,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583864910591" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583980702984">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583987229739">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583980702984" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583987229739" />
     <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1583880199135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

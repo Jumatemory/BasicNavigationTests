@@ -10,6 +10,7 @@ public class RadioButtons {
         Delayer.waitTimeGenerator(3);
 
         driver.get("http://practice.cybertekschool.com/dropdown");
+        Delayer.waitTimeGenerator(4);
 
     }
 }
