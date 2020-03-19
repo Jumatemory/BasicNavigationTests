@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicTestNGTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XPathIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/ActionsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/DropDownPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +45,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.TitleVerification3">
-    <configuration name="NavigationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cbt.tests.NavigationTests" />
+  <component name="RunManager" selected="TestNG.BasicTestNGTests">
+    <configuration name="ActionsIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ActionsIntro" />
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cbt.tests.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification" />
+    <configuration name="DropDownPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DropDownPractice" />
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,38 +72,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification2" />
+    <configuration name="BasicTestNGTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicTestNGTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification3" />
+    <configuration name="BasicTestNGTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicTestNGTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTestNGTests.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicTestNGTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TitleVerification3" />
-        <item itemvalue="Application.TitleVerification2" />
-        <item itemvalue="Application.TitleVerification" />
-        <item itemvalue="Application.NavigationTests" />
+        <item itemvalue="TestNG.BasicTestNGTests" />
+        <item itemvalue="TestNG.BasicTestNGTests.test2" />
+        <item itemvalue="TestNG.BasicTestNGTests.test1" />
+        <item itemvalue="Application.DropDownPractice" />
+        <item itemvalue="Application.ActionsIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583987223585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WaitGeneratorMethod||RadioButtons||created .gitignore file.">
+      <created>1583987407064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583987407064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,29 +164,30 @@
     <MESSAGE value="StringUtilityClass|| verifyEquals Method || pass or fail:" />
     <MESSAGE value="BasicNavigationTests||Basic Navigation Homework 2-1" />
     <MESSAGE value="WaitGeneratorMethod||RadioButtons" />
-    <option name="LAST_COMMIT_MESSAGE" value="WaitGeneratorMethod||RadioButtons" />
+    <MESSAGE value="WaitGeneratorMethod||RadioButtons||created .gitignore file." />
+    <option name="LAST_COMMIT_MESSAGE" value="WaitGeneratorMethod||RadioButtons||created .gitignore file." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1583987222880">
+    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1583987406317">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583987222880" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1583978900198">
+    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583987406317" />
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1584594962017">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583978900198" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1583978900198">
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584594962017" />
+    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1584594962016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583978900198" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1583978900198">
+    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
+    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1584594962016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583978900198" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1583978900198">
+    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1584594962016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583978900198" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
     <state x="301" y="73" key="SettingsEditor" timestamp="1583864910591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -174,13 +196,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583987229739" />
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1583880199135">
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1584581854167">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583880199135" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584581854167" />
     <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583987192733">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1583987192733" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584323307804">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584323307804" />
   </component>
 </project>
