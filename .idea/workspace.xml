@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicTestNGTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/XPathIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/ActionsIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/DropDownPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11/WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day8/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicTestNGTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Delayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Delayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,33 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="TestNG.BasicTestNGTests">
-    <configuration name="ActionsIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.ActionsIntro" />
-      <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropDownPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DropDownPractice" />
-      <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WebTables.verifyRowCount">
     <configuration name="BasicTestNGTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,11 +57,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTestNGTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTestNGTests" />
-      <option name="METHOD_NAME" value="test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day8" />
+      <option name="MAIN_CLASS_NAME" value="day8.SearchTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day8" />
+      <option name="MAIN_CLASS_NAME" value="day8.SearchTests" />
+      <option name="METHOD_NAME" value="googleSearchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,11 +92,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTestNGTests.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.getColumnNames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTestNGTests" />
-      <option name="METHOD_NAME" value="test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.WebTables" />
+      <option name="METHOD_NAME" value="getColumnNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTables.verifyRowCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11" />
+      <option name="MAIN_CLASS_NAME" value="day11.WebTables" />
+      <option name="METHOD_NAME" value="verifyRowCount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebTables.verifyRowCount" />
+        <item itemvalue="TestNG.WebTables.getColumnNames" />
+        <item itemvalue="TestNG.SearchTests" />
+        <item itemvalue="TestNG.SearchTests.googleSearchTest" />
         <item itemvalue="TestNG.BasicTestNGTests" />
-        <item itemvalue="TestNG.BasicTestNGTests.test2" />
-        <item itemvalue="TestNG.BasicTestNGTests.test1" />
-        <item itemvalue="Application.DropDownPractice" />
-        <item itemvalue="Application.ActionsIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583987407064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestNGPractice||Annotations">
+      <created>1584595049702</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584595049702</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,37 +193,38 @@
     <MESSAGE value="BasicNavigationTests||Basic Navigation Homework 2-1" />
     <MESSAGE value="WaitGeneratorMethod||RadioButtons" />
     <MESSAGE value="WaitGeneratorMethod||RadioButtons||created .gitignore file." />
-    <option name="LAST_COMMIT_MESSAGE" value="WaitGeneratorMethod||RadioButtons||created .gitignore file." />
+    <MESSAGE value="TestNGPractice||Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNGPractice||Annotations" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1583987406317">
+    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1584595048853">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583987406317" />
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1584594962017">
+    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1584595048853" />
+    <state width="1557" height="702" key="GridCell.Tab.0.bottom" timestamp="1584821281947">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584594962017" />
-    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1584594962016">
+    <state width="1557" height="702" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584821281947" />
+    <state width="1557" height="702" key="GridCell.Tab.0.center" timestamp="1584821281947">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
-    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1584594962016">
+    <state width="1557" height="702" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584821281947" />
+    <state width="1557" height="702" key="GridCell.Tab.0.left" timestamp="1584821281947">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
-    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1584594962016">
+    <state width="1557" height="702" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584821281947" />
+    <state width="1557" height="702" key="GridCell.Tab.0.right" timestamp="1584821281947">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584594962016" />
+    <state width="1557" height="702" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584821281947" />
     <state x="301" y="73" key="SettingsEditor" timestamp="1583864910591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583864910591" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1583987229739">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1584595052379">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583987229739" />
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1584595052379" />
     <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1584581854167">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

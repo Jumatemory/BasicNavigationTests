@@ -5,6 +5,14 @@ import org.testng.annotations.*;
 
 
 public class BasicTestNGTests {
+    @BeforeTest
+    public void BeforeTest(){
+        System.out.println("Before test");
+    }
+    @AfterTest
+    public void afterTest(){
+        System.out.println("After test");
+    }
     @BeforeClass
     public void beforeClass(){
         System.out.println("Before class");
