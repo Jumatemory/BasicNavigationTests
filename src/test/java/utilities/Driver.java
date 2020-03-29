@@ -18,16 +18,12 @@ public class Driver {
             if ("chrome".equals(browser)) {
                 WebDriverManager.chromedriver().version("79.0").setup();
                 driver = new ChromeDriver();
-
             } else if ("firefox".equals(browser)) {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
-
-
             } else {
                 throw new RuntimeException("wrong browser name");
             }
-
         }
         return driver;
     }

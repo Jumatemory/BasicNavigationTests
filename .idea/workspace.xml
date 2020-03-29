@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Config/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FrameExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SystemProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day14/ConfigReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day14/DriverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/FileUploading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/FramesPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/JSExecuteIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/WindowSwitching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11/WaitPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/ActionClassHoverPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/DragAndDroPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day12/JSExecutorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,34 +47,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="TestNG.DriverTest.googleTest">
-    <configuration name="ConfigReaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JSExecutorPractice.test4">
+    <configuration name="DragAndDroPractice.practiceDragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.ConfigReaderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.DragAndDroPractice" />
+      <option name="METHOD_NAME" value="practiceDragAndDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigReaderTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.ConfigReaderTest" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.JSExecutorPractice" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,17 +84,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverTest.googleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.DriverTest" />
-      <option name="METHOD_NAME" value="googleTest" />
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.JSExecutorPractice" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +102,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameExample.Test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FrameExample" />
-      <option name="METHOD_NAME" value="Test5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.JSExecutorPractice" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,11 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemProperties.tet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SystemProperties" />
-      <option name="METHOD_NAME" value="tet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day12" />
+      <option name="MAIN_CLASS_NAME" value="day12.JSExecutorPractice" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DriverTest.googleTest" />
-        <item itemvalue="TestNG.SystemProperties.tet" />
-        <item itemvalue="TestNG.ConfigReaderTest.test1" />
-        <item itemvalue="TestNG.ConfigReaderTest" />
-        <item itemvalue="TestNG.FrameExample.Test5" />
+        <item itemvalue="TestNG.JSExecutorPractice.test4" />
+        <item itemvalue="TestNG.JSExecutorPractice.test3" />
+        <item itemvalue="TestNG.JSExecutorPractice.test2" />
+        <item itemvalue="TestNG.JSExecutorPractice.test1" />
+        <item itemvalue="TestNG.DragAndDroPractice.practiceDragAndDrop" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584821348382</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Design pattern||singleton||Best Practices.">
+      <created>1585195155348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585195155348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,33 +219,34 @@
     <MESSAGE value="WaitGeneratorMethod||RadioButtons||created .gitignore file." />
     <MESSAGE value="TestNGPractice||Annotations" />
     <MESSAGE value="WebTables||Day11" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebTables||Day11" />
+    <MESSAGE value="Design pattern||singleton||Best Practices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Design pattern||singleton||Best Practices." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585024969323">
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585423739640">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1585024969323" />
-    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1584821347619">
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1585423739640" />
+    <state x="344" y="9" key="CommitChangelistDialog2" timestamp="1585195153610">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1584821347619" />
-    <state width="1540" height="694" key="GridCell.Tab.0.bottom" timestamp="1585194923770">
+    <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1585195153610" />
+    <state width="1539" height="694" key="GridCell.Tab.0.bottom" timestamp="1585499463531">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="694" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585194923770" />
-    <state width="1540" height="694" key="GridCell.Tab.0.center" timestamp="1585194923770">
+    <state width="1539" height="694" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585499463531" />
+    <state width="1539" height="694" key="GridCell.Tab.0.center" timestamp="1585499463529">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="694" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585194923770" />
-    <state width="1540" height="694" key="GridCell.Tab.0.left" timestamp="1585194923770">
+    <state width="1539" height="694" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585499463529" />
+    <state width="1539" height="694" key="GridCell.Tab.0.left" timestamp="1585499463526">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="694" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585194923770" />
-    <state width="1540" height="694" key="GridCell.Tab.0.right" timestamp="1585194923770">
+    <state width="1539" height="694" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585499463526" />
+    <state width="1539" height="694" key="GridCell.Tab.0.right" timestamp="1585499463530">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="694" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585194923770" />
+    <state width="1539" height="694" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585499463530" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585025412935">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -252,14 +267,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583864910591" />
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1584821351402">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2" timestamp="1585195157681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1584821351402" />
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1585059096544">
+    <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1585195157681" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1585496411058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585059096544" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585496411058" />
     <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583987192733">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
