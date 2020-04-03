@@ -6,20 +6,24 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
-    private static Properties configFile;
+   private static Properties configFile ;
 
-    static {
-        try {
-            FileInputStream fileInputStream =new FileInputStream("configuration.properties");
-            configFile =new Properties();
-            configFile.load(fileInputStream);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public static String getProperty(String key){
-        System.out.println("Failed to load properties file!");
-       return configFile.getProperty(key);
+   static {
+       try {
 
-    }
+           FileInputStream input = new FileInputStream(System.getProperty("user.dir")+"/configuration.properties");
+           configFile = new Properties();
+           configFile.load(input);
+           input.close();
+       } catch (Exception e) {
+           e.printStackTrace();
+           throw  new RuntimeException("failed to load properties file");
+
+       }
+
+
+   }
+   public static String getProperty(String keyName){
+       return configFile.getProperty(keyName );
+   }
 }

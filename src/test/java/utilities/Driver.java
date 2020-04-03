@@ -10,8 +10,6 @@ public class Driver {
 
     }
     public static WebDriver getDriver() {
-
-
         if (driver == null) {
 
             String browser = ConfigurationReader.getProperty("browser").toLowerCase();
