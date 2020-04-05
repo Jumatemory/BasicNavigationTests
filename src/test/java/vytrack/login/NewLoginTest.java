@@ -1,16 +1,17 @@
 package vytrack.login;
 
 import com.cbt.utilities.pages.LoginPage;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.Driver;
-import vytrack.TestBase;
+import vytrack.AbstractTestBase;
 
-public class NewLoginTest extends TestBase {
+public class NewLoginTest extends AbstractTestBase {
     @Test
     public void verifyPageTitle(){
         LoginPage loginPage = new LoginPage();
-        loginPage.login("storemanager85","UserUser123");
-        System.out.println(Driver.getDriver().getTitle());
+        loginPage.login();
+        Assert.assertEquals(Driver.getDriver().getTitle(),"Dashboard");
 
 
     }

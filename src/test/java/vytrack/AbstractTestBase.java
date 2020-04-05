@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class TestBase {
+public class AbstractTestBase {
     protected WebDriverWait wait;
     protected Actions actions;
     @BeforeMethod
