@@ -11,6 +11,7 @@ public class NewLoginTest extends TestBase {
         LoginPage loginPage = new LoginPage();
         loginPage.login("storemanager85","UserUser123");
         System.out.println(Driver.getDriver().getTitle());
+        Driver.closeDriver();
 
 
     }

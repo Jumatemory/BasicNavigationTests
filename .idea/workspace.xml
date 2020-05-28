@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13/ConfigurationReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13/DriverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13/SystemProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/fleet/NewVehiclePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/fleet/VehiclesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/login/NewLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/ApplicationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/DeskLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vytrack/login/DeskLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTestNGTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FrameExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioButtons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/XPathIntro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vytrack/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/login/NewLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vytrack/login/NewLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +56,18 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewLoginTest.verifyPageTitle">
-    <configuration name="ConfigurationReaderTest.readProperties" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ApplicationTest.test1">
+    <configuration name="ApplicationTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13" />
-      <option name="MAIN_CLASS_NAME" value="day13.ConfigurationReaderTest" />
-      <option name="METHOD_NAME" value="readProperties" />
+      <option name="PACKAGE_NAME" value="vytrack" />
+      <option name="MAIN_CLASS_NAME" value="vytrack.ApplicationTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,17 +75,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverTest.googleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeskLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="vytrack.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day13" />
-      <option name="MAIN_CLASS_NAME" value="day13.DriverTest" />
-      <option name="METHOD_NAME" value="googleTest" />
+      <option name="PACKAGE_NAME" value="vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="vytrack.login.DeskLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeskLoginTest.testEndUserField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vytrack.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="vytrack.login.DeskLoginTest" />
+      <option name="METHOD_NAME" value="testEndUserField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeskLoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vytrack.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vytrack.login" />
+      <option name="MAIN_CLASS_NAME" value="vytrack.login.DeskLoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,51 +146,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewLoginTests.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vytrack.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vytrack.login" />
-      <option name="MAIN_CLASS_NAME" value="vytrack.login.NewLoginTests" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewLoginTests.verifyWarningMessage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vytrack.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vytrack.login" />
-      <option name="MAIN_CLASS_NAME" value="vytrack.login.NewLoginTests" />
-      <option name="METHOD_NAME" value="verifyWarningMessage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ApplicationTest.test1" />
+        <item itemvalue="TestNG.DeskLoginTest.testLogin" />
+        <item itemvalue="TestNG.DeskLoginTest" />
+        <item itemvalue="TestNG.DeskLoginTest.testEndUserField" />
         <item itemvalue="TestNG.NewLoginTest.verifyPageTitle" />
-        <item itemvalue="TestNG.NewLoginTests.verifyWarningMessage" />
-        <item itemvalue="TestNG.NewLoginTests.verifyPageTitle" />
-        <item itemvalue="TestNG.DriverTest.googleTest" />
-        <item itemvalue="TestNG.ConfigurationReaderTest.readProperties" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -253,6 +255,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1585423739640" />
+    <state x="573" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1590089649762">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="573" y="285" key="#com.intellij.ide.util.MemberChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1590089649762" />
+    <state x="491" y="351" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585937480586">
+      <screen x="0" y="0" width="1280" height="920" />
+    </state>
+    <state x="491" y="351" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.920@0.0.1280.920" timestamp="1585937480586" />
     <state x="448" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585885639713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -269,37 +279,49 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="344" y="9" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1585499931462" />
-    <state width="1557" height="701" key="GridCell.Tab.0.bottom" timestamp="1585894038300">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="315" key="GridCell.Tab.0.bottom" timestamp="1590691774834">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1236" height="237" key="GridCell.Tab.0.bottom/0.0.1280.920@0.0.1280.920" timestamp="1585937842451" />
+    <state width="1556" height="315" key="GridCell.Tab.0.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1590691774834" />
     <state width="1557" height="701" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585894038300" />
-    <state width="1557" height="701" key="GridCell.Tab.0.center" timestamp="1585894038300">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="315" key="GridCell.Tab.0.center" timestamp="1590691774834">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1236" height="237" key="GridCell.Tab.0.center/0.0.1280.920@0.0.1280.920" timestamp="1585937842451" />
+    <state width="1556" height="315" key="GridCell.Tab.0.center/0.0.1600.1160@0.0.1600.1160" timestamp="1590691774834" />
     <state width="1557" height="701" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585894038300" />
-    <state width="1557" height="701" key="GridCell.Tab.0.left" timestamp="1585894038300">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="315" key="GridCell.Tab.0.left" timestamp="1590691774834">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1236" height="237" key="GridCell.Tab.0.left/0.0.1280.920@0.0.1280.920" timestamp="1585937842451" />
+    <state width="1556" height="315" key="GridCell.Tab.0.left/0.0.1600.1160@0.0.1600.1160" timestamp="1590691774834" />
     <state width="1557" height="701" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585894038300" />
-    <state width="1557" height="701" key="GridCell.Tab.0.right" timestamp="1585894038300">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="315" key="GridCell.Tab.0.right" timestamp="1590691774834">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1236" height="237" key="GridCell.Tab.0.right/0.0.1280.920@0.0.1280.920" timestamp="1585937842451" />
+    <state width="1556" height="315" key="GridCell.Tab.0.right/0.0.1600.1160@0.0.1600.1160" timestamp="1590691774834" />
     <state width="1557" height="701" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585894038300" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585025412935">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="390" key="GridCell.Tab.1.bottom" timestamp="1590525538120">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1556" height="390" key="GridCell.Tab.1.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1590525538120" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585025412935" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1585025412935">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="390" key="GridCell.Tab.1.center" timestamp="1590525538120">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1556" height="390" key="GridCell.Tab.1.center/0.0.1600.1160@0.0.1600.1160" timestamp="1590525538120" />
     <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1585025412935" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1585025412935">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="390" key="GridCell.Tab.1.left" timestamp="1590525538120">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1556" height="390" key="GridCell.Tab.1.left/0.0.1600.1160@0.0.1600.1160" timestamp="1590525538120" />
     <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1585025412935" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1585025412935">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1556" height="390" key="GridCell.Tab.1.right" timestamp="1590525538120">
+      <screen x="0" y="0" width="1600" height="1160" />
     </state>
+    <state width="1556" height="390" key="GridCell.Tab.1.right/0.0.1600.1160@0.0.1600.1160" timestamp="1590525538120" />
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1585025412935" />
     <state x="467" y="135" key="NewModule_or_Project.wizard" timestamp="1585884553140">
       <screen x="0" y="0" width="1600" height="860" />
@@ -313,9 +335,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1585499935829" />
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1585692731615">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="406" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1587651134668">
+      <screen x="0" y="0" width="1280" height="920" />
     </state>
+    <state x="406" y="277" key="com.intellij.ide.util.TipDialog/0.0.1280.920@0.0.1280.920" timestamp="1587651134668" />
     <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585692731615" />
     <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583987192733">
       <screen x="0" y="0" width="1600" height="860" />

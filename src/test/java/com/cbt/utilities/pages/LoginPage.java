@@ -17,6 +17,7 @@ public class LoginPage {
             public WebElement login;
 
     public LoginPage(){
+
         PageFactory.initElements(Driver.getDriver(),LoginPage.class);
     }
     public void login(String usernameInput, String passwordInput){
