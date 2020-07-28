@@ -14,7 +14,7 @@ public class Driver {
 
             String browser = ConfigurationReader.getProperty("browser").toLowerCase();
             if ("chrome".equals(browser)) {
-                WebDriverManager.chromedriver().version("79.0").setup();
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
             } else if ("firefox".equals(browser)) {
                 WebDriverManager.firefoxdriver().setup();
