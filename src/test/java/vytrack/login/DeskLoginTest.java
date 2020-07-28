@@ -2,9 +2,9 @@ package vytrack.login;
 
 import com.cbt.utilities.pages.DeskLoginPage;
 import org.testng.annotations.Test;
-import vytrack.TestBase;
+;
 
-public class DeskLoginTest  extends TestBase {
+public class DeskLoginTest  {
     DeskLoginPage deskLoginPage = new DeskLoginPage();
 
 

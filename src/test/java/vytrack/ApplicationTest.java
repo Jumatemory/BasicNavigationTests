@@ -4,7 +4,7 @@ import com.cbt.utilities.pages.ApplicationPage;
 import org.testng.annotations.Test;
 
 
-public class ApplicationTest extends TestBase {
+public class ApplicationTest  {
 
     ApplicationPage application = new ApplicationPage();
 
@@ -14,6 +14,9 @@ public class ApplicationTest extends TestBase {
         application.setLocationInput("Albany,NY");
         application.clickSearchButton();
         application.clickOnJobLink();
+        application.clickApplyLInk();
+        application.clickOnAgreeCheckBox();
+        application.clickOnContinueButton();
     }
 
 }

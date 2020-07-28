@@ -3,9 +3,9 @@ package vytrack.login;
 import com.cbt.utilities.pages.LoginPage;
 import org.testng.annotations.Test;
 import utilities.Driver;
-import vytrack.TestBase;
 
-public class NewLoginTest extends TestBase {
+
+public class NewLoginTest  {
     @Test
     public void verifyPageTitle(){
         LoginPage loginPage = new LoginPage();
