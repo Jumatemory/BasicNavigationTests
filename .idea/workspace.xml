@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="">
+    <list default="true" id="d35b7c60-90f8-4172-9fd4-d63cfd241ca6" name="Default Changelist" comment="daily practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/ApplicationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/pages/ApplicationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/AbstractTestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vytrack/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/activities/NewCalendarEventsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/fleet/NewVehiclePageTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/login/DeskLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vytrack/login/DeskLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/login/NewLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vytrack/login/NewLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/vytrack/login/TestWarningMessage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewLoginTest.verifyPageTitle">
+  <component name="RunManager" selected="TestNG.DeskLoginTest.test">
     <configuration name="ApplicationTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
@@ -91,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeskLoginTest.testEndUserField" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeskLoginTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="vytrack.login" />
       <option name="MAIN_CLASS_NAME" value="vytrack.login.DeskLoginTest" />
-      <option name="METHOD_NAME" value="testEndUserField" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeskLoginTest.test" />
         <item itemvalue="TestNG.NewLoginTest.verifyPageTitle" />
         <item itemvalue="TestNG.ApplicationTest.test1" />
         <item itemvalue="TestNG.DeskLoginTest.testLogin" />
         <item itemvalue="TestNG.DeskLoginTest" />
-        <item itemvalue="TestNG.DeskLoginTest.testEndUserField" />
       </list>
     </recent_temporary>
   </component>
@@ -258,63 +251,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="daily practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1590089649762">
-      <screen x="0" y="0" width="1600" height="1160" />
+    <state width="1236" height="257" key="GridCell.Tab.0.bottom" timestamp="1609187301965">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="573" y="285" key="#com.intellij.ide.util.MemberChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1590089649762" />
-    <state x="344" y="12" key="CommitChangelistDialog2" timestamp="1590691824592">
-      <screen x="0" y="0" width="1600" height="1160" />
+    <state width="1236" height="257" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1609187301965" />
+    <state width="1236" height="257" key="GridCell.Tab.0.center" timestamp="1609187301965">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="344" y="12" key="CommitChangelistDialog2/0.0.1600.1160@0.0.1600.1160" timestamp="1590691824592" />
-    <state x="270" y="234" key="FileChooserDialogImpl" timestamp="1590693379895">
-      <screen x="0" y="0" width="1600" height="1160" />
+    <state width="1236" height="257" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1609187301965" />
+    <state width="1236" height="257" key="GridCell.Tab.0.left" timestamp="1609187301965">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="270" y="234" key="FileChooserDialogImpl/0.0.1600.1160@0.0.1600.1160" timestamp="1590693379895" />
-    <state width="1556" height="390" key="GridCell.Tab.0.bottom" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
+    <state width="1236" height="257" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1609187301965" />
+    <state width="1236" height="257" key="GridCell.Tab.0.right" timestamp="1609187301965">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1556" height="390" key="GridCell.Tab.0.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.0.center" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.0.center/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.0.left" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.0.left/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.0.right" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.0.right/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.1.bottom" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.1.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.1.center" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.1.center/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.1.left" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.1.left/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state width="1556" height="390" key="GridCell.Tab.1.right" timestamp="1591029178382">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state width="1556" height="390" key="GridCell.Tab.1.right/0.0.1600.1160@0.0.1600.1160" timestamp="1591029178382" />
-    <state x="512" y="296" key="MultipleFileMergeDialog" timestamp="1590691853311">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state x="512" y="296" key="MultipleFileMergeDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1590691853311" />
-    <state x="392" y="225" key="Vcs.Push.Dialog.v2" timestamp="1590691829459">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state x="392" y="225" key="Vcs.Push.Dialog.v2/0.0.1600.1160@0.0.1600.1160" timestamp="1590691829459" />
-    <state x="508" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1595337963877">
-      <screen x="0" y="0" width="1600" height="1160" />
-    </state>
-    <state x="406" y="277" key="com.intellij.ide.util.TipDialog/0.0.1280.920@0.0.1280.920" timestamp="1587651134668" />
-    <state x="508" y="349" key="com.intellij.ide.util.TipDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1595337963877" />
+    <state width="1236" height="257" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1609187301965" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
